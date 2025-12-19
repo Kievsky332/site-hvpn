@@ -1,0 +1,74 @@
+html,body{
+   background-color:#101922; 
+   color:white;
+   overflow-x: hidden;
+}
+
+a{
+    color:rgb(12, 9, 9);
+    text-decoration: none;
+}
+
+.obsh{
+    padding: 0 10px 5px 15px;
+    background: #131e72d5;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-right:20px ;
+}
+
+
+#safe{
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+    animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}
+#niz{
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    right:40%;
+    opacity: 0;
+    animation: 2.5s 1s anim-lineUp infinite ;
+}
+#center1{
+    margin-top: 30vh;
+}
+#mal{
+    font-size: 25px;
+}
+#vpn{
+    color: #fff;
+    text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    animation: glow 1s infinite alternate;
+    font-size: 40px;
+    font-family: "Stick", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #ff005e, 0 0 10px #ff005e, 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 80px #ff005e;
+    }
+
+    100% {
+        text-shadow: 0 0 10px #00d4ff, 0 0 20px #00d4ff, 0 0 40px #00d4ff, 0 0 80px #00d4ff, 0 0 160px #00d4ff;
+    }
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+  }
+    50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
