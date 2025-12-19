@@ -5,10 +5,28 @@ html,body{
 }
 
 a{
-    color:rgb(12, 9, 9);
     text-decoration: none;
 }
+#m{
 
+    margin:30px;
+}
+.anim{
+    animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}
+.divi{
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #00d4ff;
+    padding: 1px 10px 0  0;
+    width: max-content;
+    animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}
+img{
+    width: 50px;
+}
 .obsh{
     padding: 0 10px 5px 15px;
     background: #131e72d5;
