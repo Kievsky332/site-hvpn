@@ -3,7 +3,7 @@
 
 Красивая страница с рекламой ВПН* ( *МЫ осуждаем впн)
 
-![vpn]( https://cdn-icons-png.flaticon.com/512/6554/6554321.png "Sites") ![vpn]( https://cdn-icons-png.flaticon.com/512/6554/6554321.png "Sites")<br>
+![vpn]( https://cdn-icons-png.flaticon.com/512/6554/6554321.png "Sites") <br>
 *осуждаем ВПН.
 
 
